@@ -1,17 +1,14 @@
 # 🎵 Generador de Bingos Musicales Pride
 
 Este script en Python permite generar cartones de bingo musical con temática Pride, usando una lista personalizada de canciones y creando un PDF colorido, amigable e inclusivo. Ideal para fiestas, dinámicas sociales y eventos comunitarios.
-✨ Características
 
-    Generación de cartones de bingo 5x5 con centro libre
+# ✨ Características
 
-    Formato visual optimizado para impresión (2 cartones por página)
-
-    Estética y colores inspirados en la bandera del orgullo LGBTQ+
-
-    Soporte para caracteres especiales y emojis musicales
-
-    Personalización de fuentes, tamaño de letra y cantidad de cartones
+ - Generación de cartones de bingo 5x5 con centro libre
+ - Formato visual optimizado para impresión (2 cartones por página)
+ - Estética y colores inspirados en la bandera del orgullo LGBTQ+
+ - Soporte para caracteres especiales y emojis musicales
+ - Personalización de fuentes, tamaño de letra y cantidad de cartones
 
 # 📦 Requisitos
 
