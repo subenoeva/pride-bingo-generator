@@ -1,15 +1,23 @@
-# Generador de Cartones de Bingo Musical Pride
-# Dependencias necesarias para ejecutar el script
+# Generador de Bingo Musical Pride con Spotify
+# Dependencias principales
 
-# Manipulación de datos
-pandas>=1.5.0
-
-# Generación de PDFs con soporte para caracteres especiales
+# Para generación de PDFs
 reportlab>=3.6.0
 
-# Para mejor manejo de caracteres especiales y encoding
-chardet>=5.0.0
+# Para manejo de datos estructurados
+pandas>=1.3.0
 
-# Fuentes adicionales para caracteres especiales (opcional)
-# Si tienes problemas con acentos, puedes instalar:
-# pip install reportlab-fonts
+# Para integración con Spotify API
+spotipy>=2.22.0
+
+# Para solicitudes HTTP (usado internamente por spotipy y como respaldo)
+requests>=2.25.0
+
+# Dependencias adicionales que pueden ser útiles (opcionales)
+# Si tienes problemas con encoding de archivos, descomenta estas líneas:
+# chardet>=4.0.0
+# python-magic>=0.4.24
+
+# Para desarrollo y testing (opcional)
+# pytest>=6.0.0
+# black>=22.0.0
