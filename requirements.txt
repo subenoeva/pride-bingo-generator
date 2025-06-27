@@ -1,0 +1,15 @@
+# Generador de Cartones de Bingo Musical Pride
+# Dependencias necesarias para ejecutar el script
+
+# Manipulación de datos
+pandas>=1.5.0
+
+# Generación de PDFs con soporte para caracteres especiales
+reportlab>=3.6.0
+
+# Para mejor manejo de caracteres especiales y encoding
+chardet>=5.0.0
+
+# Fuentes adicionales para caracteres especiales (opcional)
+# Si tienes problemas con acentos, puedes instalar:
+# pip install reportlab-fonts
